@@ -8,7 +8,7 @@
 BOARD_VENDOR := xiaomi
 
 DEVICE_PATH := device/xiaomi/violet
-
+ALLOW_MISSING_DEPENDENCIES := true
 TEMPORARY_DISABLE_PATH_RESTRICTIONS := true
 
 # Architecture
