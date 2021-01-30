@@ -1,4 +1,4 @@
-#
+_#
 # Copyright (C) 2020 The LineageOS Project
 
 # SPDX-License-Identifier: Apache-2.0
@@ -7,7 +7,7 @@
 # Inherit from violet device
 $(call inherit-product, device/xiaomi/violet/device.mk)
 
-# Inherit some common ArrowOS stuff.
+# Inherit some common lineageOS stuff.
 $(call inherit-product, vendor/lineage/config/common.mk)
 TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_GAPPS_ARCH := arm64
